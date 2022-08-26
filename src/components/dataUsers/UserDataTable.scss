@@ -1,0 +1,47 @@
+.table__header {
+    height: 60px;
+    background: linear-gradient(90deg, #c6ffdd, #fbd786, #f7797d);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h5 {
+        margin: 20px 20px;
+    }
+
+    .modal__button {
+        margin-right: 20px;
+    }
+
+    @media (max-width: 500px) {
+        .modal__button {
+            height: 60px;
+        }
+    }
+}
+
+.table-info {
+    .table__sort--header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .table__sort--icon {
+            display: flex;
+            flex-direction: column;
+
+            i {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.scollme {
+    width: inherit;
+    overflow-x: auto;
+}
